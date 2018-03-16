@@ -9,7 +9,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test-bucket"
+  bucket = "my-tf-test-bucket-1234567890"
   acl = "private"
 
   tags {
